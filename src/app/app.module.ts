@@ -13,6 +13,7 @@ import { DeleteComponent } from './delete/delete.component';
 import { EditComponent } from './edit/edit.component';
 import { SearchComponent } from './search/search.component';
 import { RouterModule, Routes } from '@angular/router';
+import { NavComponent } from './nav/nav.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -50,6 +51,15 @@ const myRoute:Routes=[
     path:"search",
     component:SearchComponent
   },
+  {
+    path:"login",
+    component:LoginComponent
+  },
+  {
+    path:"reg",
+    component:RegComponent
+  },
+
 ]
 
 
@@ -64,7 +74,8 @@ const myRoute:Routes=[
     IssuebookComponent,
     DeleteComponent,
     EditComponent,
-    SearchComponent
+    SearchComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
