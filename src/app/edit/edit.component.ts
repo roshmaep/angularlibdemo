@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./edit.component.css']
 })
 export class EditComponent {
-
+  title=""
+  readValues=()=>{
+   let data:any={"title":this.title}
+    console.log(data)
+  }
+  
 }
