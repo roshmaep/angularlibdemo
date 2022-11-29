@@ -10,6 +10,7 @@ import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { BookviewComponent } from './bookview/bookview.component';
 import { IssuebookComponent } from './issuebook/issuebook.component';
 import { DeleteComponent } from './delete/delete.component';
+import { EditComponent } from './edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DeleteComponent } from './delete/delete.component';
     AdminloginComponent,
     BookviewComponent,
     IssuebookComponent,
-    DeleteComponent
+    DeleteComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
