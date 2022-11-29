@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { BookviewComponent } from './bookview/bookview.component';
 import { IssuebookComponent } from './issuebook/issuebook.component';
+import { DeleteComponent } from './delete/delete.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { IssuebookComponent } from './issuebook/issuebook.component';
     LoginComponent,
     AdminloginComponent,
     BookviewComponent,
-    IssuebookComponent
+    IssuebookComponent,
+    DeleteComponent
   ],
   imports: [
     BrowserModule,
